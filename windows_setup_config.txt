@@ -1,0 +1,42 @@
+# Windows Setup Configuration
+
+## Decluttering Tools
+
+### For Ease of Use (Graphical Interface)
+
+* Winhance: A user-friendly tool that helps you remove pre-installed apps, disable features like Copilot and Bing search, and manage privacy settings.
+* Windows 11 Debloater: A popular tool with a graphical interface that allows you to select what to remove. It offers different presets for desktops, laptops, and virtual machines.
+
+### For Advanced Users (Command-line)
+
+* Win11Debloat: A powerful, open-source PowerShell script for removing a wide range of pre-installed applications, disabling telemetry, and customizing the user interface.
+
+## Essential Applications
+
+*   **Brave Browser**
+*   **Steam**
+*   **Discord**
+*   **ueli** (A keystroke launcher)
+*   **NVIDIA App** / **AMD Software: Adrenalin Edition**
+*   **Driver Updater App** (e.g., Advanced Driver Updater, Driver Booster)
+*   **Visual Studio Code**
+*   **Miniconda**
+*   **Wallpaper Engine**
+*   **Bambu Studio**
+*   **ATLauncher**
+*   **Stremio**
+*   **Spotify**
+*   **Notion**
+*   **Git**
+*   **Quick Share**
+*   **Gemini CLI**
+*   **Microsoft PowerToys**
+*   **Everything** (Fast file search)
+*   **VLC Media Player**
+*   **ShareX** (Screenshot and screen recording tool)
+*   **LosslessCut**
+*   **File Converter** (https://file-converter.io/)
+*   **7-Zip**
+*   **Audacity**
+*   **WizTree**
+*   **LibreOffice**
