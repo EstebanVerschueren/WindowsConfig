@@ -62,7 +62,9 @@ $programs = @(
     [pscustomobject]@{Name = "Bambu Studio"; Id = "BambuLab.BambuStudio"; Group = "Utilities & System Tools"}
     [pscustomobject]@{Name = "EarTrumpet"; Id = "File-New-Project.EarTrumpet"; Group = "Utilities & System Tools"}
     [pscustomobject]@{Name = "KDE Connect"; Id = "KDE.KDEConnect"; Group = "Utilities & System Tools"}
+    [pscustomobject]@{Name = "Chrome Remote Desktop"; Id = "Google.ChromeRemoteDesktop"; Group = "Utilities & System Tools"}
     [pscustomobject]@{Name = "Wallpaper Engine"; Id = "Valve.Steam"; Group = "Gaming & Entertainment"}
+    [pscustomobject]@{Name = "Ollama"; Id = "Ollama.Ollama"; Group = "AI Tools"}
 )
 
 # Display the program selection dialog.
@@ -99,3 +101,4 @@ Write-Host " - Wallpaper Engine: This program is installed via Steam. This scrip
 Write-Host " - Gemini CLI: This tool is not available on winget. Please follow the installation instructions on the official GitHub repository: https://github.com/google-gemini/gemini-cli"
 Write-Host " - Driver Updater App: The script does not install a generic driver updater. Please choose a reputable application for this purpose."
 Write-Host " - BetterDiscord: This is a modification for Discord and needs to be installed after Discord is installed. You can find it at https://betterdiscord.app/"
+Write-Host " - ComfyUI: This tool is not available on winget. Please follow the installation instructions on the official GitHub repository: https://github.com/comfyanonymous/ComfyUI"
