@@ -13,30 +13,49 @@
 
 ## Essential Applications
 
+### Browsers
 *   **Brave Browser**
-*   **Steam**
+
+### Communication & Social
 *   **Discord**
+*   **BetterDiscord** (Discord Modification)
+*   **Spotify**
+
+### Gaming & Entertainment
+*   **Steam**
+*   **Wallpaper Engine**
+*   **ATLauncher**
+*   **Stremio**
+*   **VLC Media Player**
+
+### Productivity & Office
+*   **Notion**
+*   **LibreOffice**
+
+### Development & IT Tools
+*   **Visual Studio Code**
+*   **Miniconda**
+*   **Git**
+*   **Gemini CLI**
+*   **PuTTY**
+
+### Security & Privacy
+*   **Malwarebytes**
+*   **ExpressVPN**
+
+### Utilities & System Tools
 *   **ueli** (A keystroke launcher)
 *   **NVIDIA App** / **AMD Software: Adrenalin Edition**
 *   **Driver Updater App** (e.g., Advanced Driver Updater, Driver Booster)
-*   **Visual Studio Code**
-*   **Miniconda**
-*   **Wallpaper Engine**
-*   **Bambu Studio**
-*   **ATLauncher**
-*   **Stremio**
-*   **Spotify**
-*   **Notion**
-*   **Git**
 *   **Quick Share**
-*   **Gemini CLI**
+*   **KDE Connect**
 *   **Microsoft PowerToys**
 *   **Everything** (Fast file search)
-*   **VLC Media Player**
 *   **ShareX** (Screenshot and screen recording tool)
 *   **LosslessCut**
 *   **File Converter** (https://file-converter.io/)
 *   **7-Zip**
 *   **Audacity**
 *   **WizTree**
-*   **LibreOffice**
+*   **Bambu Studio**
+*   **EarTrumpet**

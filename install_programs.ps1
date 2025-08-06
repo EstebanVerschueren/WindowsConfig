@@ -1,4 +1,3 @@
-
 <#
 .SYNOPSIS
     A PowerShell script to automate the installation of essential Windows applications.
@@ -35,9 +34,7 @@ $programs = @(
     [pscustomobject]@{Name = "Brave Browser"; Id = "Brave.Brave"; Group = "Browsers"}
     [pscustomobject]@{Name = "Discord"; Id = "Discord.Discord"; Group = "Communication & Social"}
     [pscustomobject]@{Name = "Spotify"; Id = "Spotify.Spotify"; Group = "Communication & Social"}
-    [pscustomobject]@{Name = "Telegram Desktop"; Id = "Telegram.TelegramDesktop"; Group = "Communication & Social"}
-    [pscustomobject]@{Name = "Zoom"; Id = "Zoom.Zoom"; Group = "Communication & Social"}
-    [pscustomobject]@{Name = "Microsoft Teams"; Id = "Microsoft.Teams"; Group = "Communication & Social"}
+    
     [pscustomobject]@{Name = "Steam"; Id = "Valve.Steam"; Group = "Gaming & Entertainment"}
     [pscustomobject]@{Name = "ATLauncher"; Id = "ATLauncher.ATLauncher"; Group = "Gaming & Entertainment"}
     [pscustomobject]@{Name = "Stremio"; Id = "Stremio.Stremio"; Group = "Gaming & Entertainment"}
@@ -48,9 +45,7 @@ $programs = @(
     [pscustomobject]@{Name = "Miniconda"; Id = "Anaconda.Miniconda3"; Group = "Development & IT Tools"}
     [pscustomobject]@{Name = "Git"; Id = "Git.Git"; Group = "Development & IT Tools"}
     [pscustomobject]@{Name = "PuTTY"; Id = "PuTTY.PuTTY"; Group = "Development & IT Tools"}
-    [pscustomobject]@{Name = "Wireshark"; Id = "Wireshark.Wireshark"; Group = "Development & IT Tools"}
     [pscustomobject]@{Name = "Malwarebytes"; Id = "Malwarebytes.Malwarebytes"; Group = "Security & Privacy"}
-    [pscustomobject]@{Name = "ProtonVPN"; Id = "Proton.ProtonVPN"; Group = "Security & Privacy"}
     [pscustomobject]@{Name = "ExpressVPN"; Id = "ExpressVPN.ExpressVPN"; Group = "Security & Privacy"}
     [pscustomobject]@{Name = "ueli"; Id = "oliverschwendener.ueli"; Group = "Utilities & System Tools"}
     [pscustomobject]@{Name = "NVIDIA App"; Id = "Nvidia.NvidiaApp"; Group = "Utilities & System Tools"}
@@ -66,6 +61,8 @@ $programs = @(
     [pscustomobject]@{Name = "WizTree"; Id = "AntibodySoftware.WizTree"; Group = "Utilities & System Tools"}
     [pscustomobject]@{Name = "Bambu Studio"; Id = "BambuLab.BambuStudio"; Group = "Utilities & System Tools"}
     [pscustomobject]@{Name = "EarTrumpet"; Id = "File-New-Project.EarTrumpet"; Group = "Utilities & System Tools"}
+    [pscustomobject]@{Name = "KDE Connect"; Id = "KDE.KDEConnect"; Group = "Utilities & System Tools"}
+    [pscustomobject]@{Name = "Wallpaper Engine"; Id = "Valve.Steam"; Group = "Gaming & Entertainment"}
 )
 
 # Display the program selection dialog.
@@ -101,4 +98,4 @@ Write-Host "--- Manual Installation Notes ---" -ForegroundColor Yellow
 Write-Host " - Wallpaper Engine: This program is installed via Steam. This script can install Steam for you, but you must purchase and install Wallpaper Engine from the Steam store."
 Write-Host " - Gemini CLI: This tool is not available on winget. Please follow the installation instructions on the official GitHub repository: https://github.com/google-gemini/gemini-cli"
 Write-Host " - Driver Updater App: The script does not install a generic driver updater. Please choose a reputable application for this purpose."
-
+Write-Host " - BetterDiscord: This is a modification for Discord and needs to be installed after Discord is installed. You can find it at https://betterdiscord.app/"
